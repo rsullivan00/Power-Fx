@@ -1647,6 +1647,10 @@ namespace Microsoft.PowerFx.Functions
                     targetFunction: Table_UO)
             },
             {
+                BuiltinFunctionsCore.UntypedTable,
+                NoErrorHandling(Table)
+            },
+            {
                 BuiltinFunctionsCore.Tan,
                 StandardErrorHandling<NumberValue>(
                     BuiltinFunctionsCore.Tan.Name,

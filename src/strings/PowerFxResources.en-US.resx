@@ -2477,6 +2477,10 @@
     <value>Table</value>
     <comment>Function category name - function that works on tabular data.</comment>
   </data>
+  <data name="UntypedTable" xml:space="preserve">
+    <value>UntypedTable</value>
+    <comment>Function category name - function that works on untyped tabular data.</comment>
+  </data>
   <data name="Behavior" xml:space="preserve">
     <value>Behavior</value>
     <comment>Function category name - function that needs to be executed in behavior contexts (i.e., not purely functional, with side effects).</comment>

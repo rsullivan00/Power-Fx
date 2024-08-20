@@ -13,7 +13,8 @@ namespace Microsoft.PowerFx.Core.Parser
             PartialAnd,
             PartialOr,
             PartialTable,
-            PartialRecord
+            PartialRecord,
+            PartialUntypedTable
         }
 
         public readonly IdentToken AttributeName;
@@ -53,6 +54,10 @@ namespace Microsoft.PowerFx.Core.Parser
                 else if (identTok.Name.Value == "Record")
                 {
                     return AttributeOperationKind.PartialRecord;
+                }
+                else if (identTok.Name.Value == "UntypedTable")
+                {
+                    return AttributeOperationKind.PartialUntypedTable;
                 }
             }
 

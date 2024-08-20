@@ -423,6 +423,9 @@ namespace Microsoft.PowerFx.Core.Localization
         public static StringGetter AboutTable = (b) => StringResources.Get("AboutTable", b);
         public static StringGetter TableArg1 = (b) => StringResources.Get("TableArg1", b);
 
+        public static StringGetter AboutUntypedTable = (b) => StringResources.Get("AboutUntypedTable", b);
+        public static StringGetter UntypedTableArg1 = (b) => StringResources.Get("UntypedTableArg1", b);
+
         public static StringGetter AboutMod = (b) => StringResources.Get("AboutMod", b);
         public static StringGetter ModFuncArg1 = (b) => StringResources.Get("ModFuncArg1", b);
         public static StringGetter ModFuncArg2 = (b) => StringResources.Get("ModFuncArg2", b);
@@ -574,6 +577,7 @@ namespace Microsoft.PowerFx.Core.Localization
         public static StringGetter Text = (b) => StringResources.Get("Text", b);
         public static StringGetter Logical = (b) => StringResources.Get("Logical", b);
         public static StringGetter Table = (b) => StringResources.Get("Table", b);
+        public static StringGetter UntypedTable = (b) => StringResources.Get("UntypedTable", b);
         public static StringGetter Behavior = (b) => StringResources.Get("Behavior", b);
         public static StringGetter DateTime = (b) => StringResources.Get("DateTime", b);
         public static StringGetter MathAndStat = (b) => StringResources.Get("MathAndStat", b);

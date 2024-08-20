@@ -214,6 +214,7 @@ namespace Microsoft.PowerFx.Core.Texl
         public static readonly TexlFunction Switch = _library.Add(new SwitchFunction());
         public static readonly TexlFunction Table = _library.Add(new TableFunction());
         public static readonly TexlFunction Table_UO = _library.Add(new TableFunction_UO());
+        public static readonly TexlFunction UntypedTable = _library.Add(new UntypedTableFunction());
         public static readonly TexlFunction Tan = _library.Add(new TanFunction());
         public static readonly TexlFunction TanT = _library.Add(new TanTableFunction());
         public static readonly TexlFunction Text = _library.Add(new TextFunction());
